@@ -1,9 +1,9 @@
 # Use Streamlit to create a personal website
 
-Create a personal website using Python and the Streamlit library. This website will be able to serve as a place for you to share your thoughts, projects, and anything else you want.
+Create a personal website using Python and the Streamlit library.
 
 ## Check out the website here
-📢 https://share.streamlit.io//personal-website-streamlit/app.py
+📢 https://meds-personal-website.streamlit.app/
 
 
 ## Requirements
