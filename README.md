@@ -1,6 +1,6 @@
 # Use Streamlit to create a personal website
 
-Create a personal website using Python and the Streamlit library.
+This is made out of ChatGPT. Create a personal website using Python and the Streamlit library.
 
 ## Check out the website here
 📢 https://meds-personal-website.streamlit.app/
