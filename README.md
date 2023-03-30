@@ -18,10 +18,13 @@ watchdog==2.1.8
 ## Run the app
 * Terminal
     ```
-    # vanilla terminal
+    # Install packages
+    pip install -r requirements.txt
+
+    # Run the app
     streamlit run app.py
 
-    # quit
+    # Quit
     ctrl-c
     ```
 
