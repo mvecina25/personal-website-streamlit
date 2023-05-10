@@ -38,6 +38,8 @@ def main():
         st.write("---") 
         st.markdown("<span style='font-size:30px;color:#FFFFFF'>ABOUT ME</span>", unsafe_allow_html=True)
         st.markdown("<span style='font-size:30px;font-family:arial;color:#A9A9A9'>As a highly skilled and detail-focused professional with 17 years of expertise in software QA and automation testing, and 10 years in a leadership role. I am confident that I have the knowledge and skill-set to allow me to contribute toward the success of your company.</span>", unsafe_allow_html=True)
+        st.markdown("<span style='font-size:30px;font-family:arial;color:#A9A9A9'>My background includes successfully managing teams, processes, and initiatives to drive continuous quality assurance efforts and improvements, and designing test automation frameworks. In each of my previous job experiences, I have performed my tasks with a high degree of skill and professionalism.</span>", unsafe_allow_html=True)
+        st.markdown("<span style='font-size:30px;font-family:arial;color:#A9A9A9'>Apart from my run-of-the-mill duties, I am also in charge of training, mentoring, and leading the QA team members to ensure a full understanding of internal procedures, techniques, and drive effective integration of processes.</span>", unsafe_allow_html=True)
         st.write("---")
 
         
@@ -52,7 +54,16 @@ def main():
         Skills = '<span style="font-size:30px;color:#A9A9A9"></span>'
 
         if choice == "SKILLS":
-            st.write("<span style='font-size:30px;color:#A9A9A9'>I have designed test automation frameworks, and developed automated test scripts in CI/CD pipelines with these automation tools:</span>", unsafe_allow_html=True)
+            st.write("<span style='font-size:30px;color:#A9A9A9'>I create automated test scripts for Functional, Non-Functional, API, and Contract tests for the following platforms:</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Browsers | Web Apps</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Mobile Apps | Device Farm</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Desktop Apps</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Visual Tests</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Load Tests</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Stress Tests</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Rate Limit Tests</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- REST & WebSocket Tests</span>", unsafe_allow_html=True)
+            st.write("<span style='font-size:30px;color:#A9A9A9'>I also design test automation frameworks in a CI/CD pipeline and these are the automation tools that I have already worked on:</span>", unsafe_allow_html=True)
             st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Selenium</span>", unsafe_allow_html=True)
             st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Robot Framework</span>", unsafe_allow_html=True)
             st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Cypress</span>", unsafe_allow_html=True)
