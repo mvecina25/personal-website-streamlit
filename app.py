@@ -21,13 +21,14 @@ def main():
         PDFbyte = pdf_file.read()
  
     # Photo and Name
-    col1, col2 = st.columns([1, 1.5])
+    col1, col2 = st.columns([1, .5])
     image = "files/meds.png"
-    with col1:
-        st.image(image, width=530)
     with col2:
-        st.markdown("""<span style='font-size:80px;font-family:impact;color:A9A9A9'>MEDS VECINA</span> """, unsafe_allow_html=True)
-        st.markdown("<span style='font-size:30px;color:#FFA07A'>Head of QA</span>", unsafe_allow_html=True)
+        st.image(image, width=530)
+    with col1:
+        st.markdown("""<span style='font-size:80px;font-family:impact'>MEDS VECINA</span> """, unsafe_allow_html=True)
+        # st.markdown("<span style='font-size:30px;color:#FFA07A'>Head of QA</span>", unsafe_allow_html=True)
+        st.markdown("<span style='font-size:30px;color:#A9A9A9'>HEAD OF QA</span>", unsafe_allow_html=True)
         st.download_button(
             label=" 📄 Download Resume",
             data=PDFbyte,
@@ -35,26 +36,39 @@ def main():
             mime="application/octet-stream",
         )
         st.write("---") 
-        st.markdown("<span style='font-size:30px'>About Me</span>", unsafe_allow_html=True)
-        st.markdown("<span style='font-size:30px;font-family:arial;color:#A9A9A9'>More than 17 years of expertise in </span> <span style='font-size:30px;font-family:arial'>SOFTWARE QA & AUTOMATION TESTING, <span style='font-size:30px;font-family:arial;color:#A9A9A9'>and 8 years in a </span>LEADERSHIP ROLE.</span>", unsafe_allow_html=True)
+        st.markdown("<span style='font-size:30px;color:#A9A9A9'>ABOUT ME</span>", unsafe_allow_html=True)
+        st.markdown("<span style='font-size:30px;font-family:arial;color:#A9A9A9'>More than 17 years of expertise in SOFTWARE QA & AUTOMATION TESTING, and 10 years in a LEADERSHIP ROLE.</span>", unsafe_allow_html=True)
         st.write("---")
 
         
         # Sidebar
         # st.sidebar.header("Navigation")
-        menu = ["Skills", "Get In Touch With Me!"]
-        choice = st.sidebar.radio(label="", options=menu, key="navigation",)
+        menu = ["SKILLS", "Get In Touch With Me!"]
+        choice = st.sidebar.radio(label="", options=menu, key="navigation")
 
         # Main Content
         st.subheader(choice)
 
-        if choice == "Skills":
-            st.write("I have designed test automation frameworks and CI/CD pipelines with these automation tools:")
-            st.markdown("- IBM Rational Functional Tester | HP Unified Functional Testing")
-            st.markdown("- Robot Framework | Appium | Selenium")
-            st.markdown("- Nightwatch.js | Cucumber-Gherkin | TestNG")
-            st.markdown("- JMeter | Postman | Insomnia")
-            st.markdown("- Jenkins | Github Actions | Maven")
+        Skills = '<span style="font-size:30px;color:#A9A9A9"></span>'
+
+        if choice == "SKILLS":
+            st.write("<span style='font-size:30px;color:#A9A9A9'>I have designed test automation frameworks, and developed automated test scripts in CI/CD pipelines with these automation tools:</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Selenium</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Robot Framework</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Cypress</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Appium</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- JMeter</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- NightwathJS</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Cucumber-Gherking</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- TestNG</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- IBM Rational Functional Tester</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- HP Unified Functional Testing</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- MS Visual Studio Test Edition</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Postman</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Maven</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Jenkins</span>", unsafe_allow_html=True)
+            st.markdown("<span style='font-size:30px;color:#A9A9A9'>- Github Actions</span>", unsafe_allow_html=True)
+
         elif choice == "Get In Touch With Me!":
             # st.write("Email: medel.vecina@gmail.com")
             # st.write("Phone: (+63) 917 634 8632")
