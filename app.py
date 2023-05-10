@@ -37,7 +37,7 @@ def main():
         )
         st.write("---") 
         st.markdown("<span style='font-size:30px;color:#A9A9A9'>ABOUT ME</span>", unsafe_allow_html=True)
-        st.markdown("<span style='font-size:30px;font-family:arial;color:#A9A9A9'>More than 17 years of expertise in SOFTWARE QA & AUTOMATION TESTING, and 10 years in a LEADERSHIP ROLE.</span>", unsafe_allow_html=True)
+        st.markdown("<span style='font-size:30px;font-family:arial;color:#A9A9A9'>As a highly skilled and detail-focused professional with 17 years of expertise in software QA and automation testing, and 10 years in a leadership role.</span>", unsafe_allow_html=True)
         st.write("---")
 
         
