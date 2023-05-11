@@ -28,7 +28,7 @@ def main():
     with col1:
         st.markdown("""<span style='font-size:80px;font-family:impact'>MEDS VECINA</span> """, unsafe_allow_html=True)
         # st.markdown("<span style='font-size:30px;color:#FFA07A'>Head of QA</span>", unsafe_allow_html=True)
-        st.markdown("<span style='font-size:30px;color:#A9A9A9'>HEAD OF QA | TEST ARCHITECT</span>", unsafe_allow_html=True)
+        st.markdown("<span style='font-size:30px;color:#A9A9A9'>HEAD OF QA | TEST AUTOMATION MANAGER | TEST ARCHITECT</span>", unsafe_allow_html=True)
         st.download_button(
             label=" 📄 Download Resume",
             data=PDFbyte,
